@@ -1,0 +1,7 @@
+{
+  "name": "SE_portfolio-1",
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "sass": "^1.54.0"
+  }
+}
