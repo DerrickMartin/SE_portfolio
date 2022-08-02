@@ -1,0 +1,58 @@
+:root {
+  --primary: rgb(0, 0, 0);
+  --secondary: rgb(53, 53, 53);
+  --primary_dark: #fff;
+  --secondary_dark: rgb(171, 171, 171);
+  --primary_bg: #fff;
+  --primary_dark_bg: rgb(16, 13, 42);
+  --background_footer: rgb(12, 12, 26);
+  --color_footer: rgb(189, 189, 136);
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+a:hover {
+  -webkit-text-decoration: underline red;
+          text-decoration: underline red;
+}
+
+body {
+  background-color: var(--primary_bg);
+  color: var(--primary);
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navbar_settings {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  Width: 100%;
+}
+
+.card {
+  border: 1;
+  border-radius: 20%;
+  display: grid;
+}
+
+footer {
+  background: var(--background_footer);
+  color: var(--color_footer);
+  width: 100vw;
+}
+
+@media (prefers-color-scheme: dark) {
+  .background-color-dark {
+    background-color: var(--primary_dark_bg);
+  }
+  .color-primary {
+    color: var(--primary_dark);
+  }
+}/*# sourceMappingURL=styles.css.map */
